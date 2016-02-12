@@ -1,5 +1,5 @@
 module.exports = {
-  helloWorld: function () {
+  leap: function () {
     return 'Hello, World!';
   }
 }
