@@ -1,5 +1,9 @@
 module.exports = {
-  leap: function () {
-    return 'Hello, World!';
+  leap: function (year) {
+    if (year % 4 === 0) {
+      return true
+    } else {
+      return false;
+    }
   }
 }
